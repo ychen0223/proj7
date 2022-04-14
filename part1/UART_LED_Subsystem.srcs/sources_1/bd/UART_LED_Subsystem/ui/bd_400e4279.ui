@@ -1,0 +1,27 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-440,-264",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port port-id_rst_clk_rx -pg 1 -lvl 0 -x 0 -y 70 -defaultsOSRD
+preplace port port-id_clk_rx -pg 1 -lvl 0 -x 0 -y 50 -defaultsOSRD
+preplace port port-id_rxd_pin -pg 1 -lvl 0 -x 0 -y 90 -defaultsOSRD
+preplace port port-id_rx_data_rdy -pg 1 -lvl 3 -x 540 -y 180 -defaultsOSRD
+preplace portBus rx_data -pg 1 -lvl 3 -x 540 -y 160 -defaultsOSRD
+preplace inst uart_baud_gen_0 -pg 1 -lvl 1 -x 140 -y 240 -defaultsOSRD
+preplace inst meta_harden_0 -pg 1 -lvl 1 -x 140 -y 70 -defaultsOSRD
+preplace inst uart_rx_ctl_0 -pg 1 -lvl 2 -x 390 -y 180 -defaultsOSRD
+preplace netloc uart_baud_gen_0_baud_x16_en 1 1 1 260 190n
+preplace netloc meta_harden_0_signal_dst 1 1 1 250 70n
+preplace netloc meta_harden_rst_signal_dst 1 0 2 20 170 NJ
+preplace netloc util_ds_buf_0_IBUF_OUT 1 0 2 30 150 NJ
+preplace netloc signal_src_0_3 1 0 1 NJ 90
+preplace netloc uart_rx_ctl_0_rx_data 1 2 1 NJ 160
+preplace netloc uart_rx_ctl_0_rx_data_rdy 1 2 1 NJ 180
+levelinfo -pg 1 0 140 390 540
+pagesize -pg 1 -db -bbox -sgen -120 -10 680 310
+"
+}
+

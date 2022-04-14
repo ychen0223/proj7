@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../bd/UART_LED_Subsystem/ip/UART_LED_Subsystem_xlconstant_0_1/sim/UART_LED_Subsystem_xlconstant_0_1.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort
