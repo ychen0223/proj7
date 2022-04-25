@@ -46,6 +46,21 @@ This part of the lab we created a custom AXI IP block in Vivado and imported cus
 13. then connect the serial port to pre set baud rate channel.
 14. observe the result.
 
-### Part 4:
+### Part 4: Design an AXI Lite custom IP to control LEDs
+We designed an AXI Lite custom IP to control LEDs on Zybo development board without using GPIO IP in vivado. The desire functtionality is that In the Vitis serial terminal, we can have a program to get a two digit number from the user (00, or 01, or 02, ..., or 15) and show the corresponding value on LEDs on the Zybo 20 development board
+
+1. Create the project
+2. package a new IP, create a new AXI4 IP
+3. add input LED to your top and bottom design by mapping into it.
+4. Mapping LED into register0.
+5. repack your LED IP
+6. create a block design consist of your LED IP and the ZYNQ. Have external ports for the LED.
+7. Synthesis your design, then mapping the LED ports into correct development ports in the synthesis design.
+8. change all the cmos to 3.3V
+9. Extract your hardware design then open vitis.
+10. create a C and a .h file for the writing into the LED, read the UART, and initialize the LED.
+11. program the  device and run.
+
+
 
 
