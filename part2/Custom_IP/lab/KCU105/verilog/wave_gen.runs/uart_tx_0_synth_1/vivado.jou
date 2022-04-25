@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sat Apr 16 15:17:20 2022
+# Process ID: 27345
+# Current directory: /home/chris/workspace/sp22-e520-lab-assignment7-ychen0223/part2/Custom_IP/lab/KCU105/verilog/wave_gen.runs/uart_tx_0_synth_1
+# Command line: vivado -log uart_tx_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source uart_tx_0.tcl
+# Log file: /home/chris/workspace/sp22-e520-lab-assignment7-ychen0223/part2/Custom_IP/lab/KCU105/verilog/wave_gen.runs/uart_tx_0_synth_1/uart_tx_0.vds
+# Journal file: /home/chris/workspace/sp22-e520-lab-assignment7-ychen0223/part2/Custom_IP/lab/KCU105/verilog/wave_gen.runs/uart_tx_0_synth_1/vivado.jou
+# Running On: chris-IdeaPad-5-Pro-14ACN6, OS: Linux, CPU Frequency: 4123.088 MHz, CPU Physical cores: 12, Host memory: 14507 MB
+#-----------------------------------------------------------
+source uart_tx_0.tcl -notrace

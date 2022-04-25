@@ -1,0 +1,238 @@
+/*
+
+Xilinx Vivado v2021.2 (64-bit) [Major: 2021, Minor: 2]
+SW Build: 3367213 on Tue Oct 19 02:47:39 MDT 2021
+IP Build: 3369179 on Thu Oct 21 08:25:16 MDT 2021
+
+Process ID (PID): 12282
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Sat Apr 23 18:19:29 PDT 2022
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Ubuntu
+OS Version: 5.13.0-39-generic
+OS Architecture: amd64
+Available processors (cores): 12
+
+Display: 0
+Screen size: 2240x1400
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.11 64-bit
+Java home: 	/home/chris/Vivado/2021.2/tps/lnx64/jre11.0.11_9
+Java executable: 	/home/chris/Vivado/2021.2/tps/lnx64/jre11.0.11_9/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Djdk.gtk.version=2, -Dsun.java2d.uiScale.enabled=false, -Xverify:none, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/com.sun.awt=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=60m, -XX:MaxNewSize=60m, -Xms256m, -Xmx3072m, -Xss5m, -Xrs]
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	chris
+User home directory: /home/chris
+User working directory: /home/chris/workspace/sp22-e520-lab-assignment7-ychen0223/part1
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /home/chris/Vivado
+HDI_APPROOT: /home/chris/Vivado/2021.2
+RDI_DATADIR: /home/chris/Vivado/2021.2/data
+RDI_BINDIR: /home/chris/Vivado/2021.2/bin
+
+Vivado preferences file: /home/chris/.Xilinx/Vivado/2021.2/vivado.xml
+Vivado preferences directory: /home/chris/.Xilinx/Vivado/2021.2/
+Vivado layouts directory: /home/chris/.Xilinx/Vivado/2021.2/data/layouts
+PlanAhead jar file: 	/home/chris/Vivado/2021.2/lib/classes/planAhead.jar
+Vivado log file: 	/home/chris/workspace/sp22-e520-lab-assignment7-ychen0223/part1/vivado.log
+Vivado journal file: 	/home/chris/workspace/sp22-e520-lab-assignment7-ychen0223/part1/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-12282-chris-IdeaPad-5-Pro-14ACN6
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /home/chris/Vivado/2021.2/ids_lite/ISE
+XILINX_DSP: /home/chris/Vivado/2021.2/ids_lite/ISE
+XILINX_HLS: /home/chris/Vitis_HLS/2021.2
+XILINX_PLANAHEAD: /home/chris/Vivado/2021.2
+XILINX_SDK: /home/chris/Vitis/2021.2
+XILINX_VITIS: /home/chris/Vitis/2021.2
+XILINX_VIVADO: /home/chris/Vivado/2021.2
+XILINX_VIVADO_HLS: /home/chris/Vivado/2021.2
+
+
+GUI allocated memory:	256 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,887 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,887 MB. GUI used memory: 59 MB. Current time: 4/23/22, 6:19:30 PM PDT
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+selectButton(PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT, "Create Project"); // y
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceOtoP.ProjectNameChooser_CHOOSE_PROJECT_LOCATION, (String) null); // s
+setFolderChooser("/home/chris/workspace/sp22-e520-lab-assignment7-ychen0223/part4/hardware");
+selectButton("NEXT", "Next >"); // JButton
+// Elapsed time: 17 seconds
+selectButton("BACK", "< Back"); // JButton
+setText(PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, "Lab7P"); // aa
+selectButton("NEXT", "Next >"); // JButton
+// [GUI Memory]: 83 MB (+84664kb) [00:05:49]
+// [Engine Memory]: 1,901 MB (+1842018kb) [00:05:49]
+// [GUI Memory]: 94 MB (+6624kb) [00:05:49]
+// [GUI Memory]: 121 MB (+23904kb) [00:05:49]
+selectButton("NEXT", "Next >"); // JButton
+selectTab(PAResourceOtoP.PartChooser_TABBED_PANE, (HResource) null, "Boards", 1); // i
+// [GUI Memory]: 220 MB (+97759kb) [00:05:51]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,924 MB. GUI used memory: 63 MB. Current time: 4/23/22, 6:25:15 PM PDT
+setText("PAResourceAtoD.BoardChooser_BOARD_TABLE_SEARCH_FIELD", "ZYB"); // OverlayTextField
+selectTreeTable(PAResourceAtoD.BoardChooser_BOARD_TABLE, "Zybo Z7-20 ; Zybo Z7-20 ; Zybo Z7-20 ; digilentinc.com ; 1.0 ; xc7z020clg400-1 ; 400 ; B.2 ; 125 ; 53200 ; 106400 ; 140 ; 0 ; 220 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 4 ;  ;  ;  ;  ; 0 ;  ;  ;  ;  ;  ;  ; 0.95 ; 0.95 ; 1.05", 1, "Zybo Z7-20", 0, false); // ah
+expandTreeTable(PAResourceAtoD.BoardChooser_BOARD_TABLE, "Zybo Z7-20 ; Zybo Z7-20 ; Zybo Z7-20 ; digilentinc.com ; 1.0 ; xc7z020clg400-1 ; 400 ; B.2 ; 125 ; 53200 ; 106400 ; 140 ; 0 ; 220 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 4 ;  ;  ;  ;  ; 0 ;  ;  ;  ;  ;  ;  ; 0.95 ; 0.95 ; 1.05", 1); // ah
+selectTreeTable(PAResourceAtoD.BoardChooser_BOARD_TABLE, "Zybo Z7-20 ; Zybo Z7-20 ; Zybo Z7-20 ; digilentinc.com ; 1.0 ; xc7z020clg400-1 ; 400 ; B.2 ; 125 ; 53200 ; 106400 ; 140 ; 0 ; 220 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 4 ;  ;  ;  ;  ; 0 ;  ;  ;  ;  ;  ;  ; 0.95 ; 0.95 ; 1.05", 1, "Zybo Z7-20", 0, false, false, false, false, false, true); // ah - Double Click
+selectButton("NEXT", "Next >"); // JButton
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  1657 ms.
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: create_project Lab7P /home/chris/workspace/sp22-e520-lab-assignment7-ychen0223/part4/hardware -part xc7z020clg400-1 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/chris/Vivado/2021.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: BOARD_MODIFIED
+// Tcl Message: set_property board_part digilentinc.com:zybo-z7-20:part0:1.0 [current_project] 
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 51 seconds
+dismissDialog("Create Project"); // bA
+dismissDialog("New Project"); // f
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ag
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ag
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // ag
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // ag
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ag
+selectMenuItem(PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD, "Create and Package New IP..."); // ao
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ag
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD
+selectButton("NEXT", "Next >"); // JButton
+// Elapsed time: 10 seconds
+selectRadioButton(PAResourceItoN.NewIpWizard_CREATE_NEW_AXI4_IP_CREATE_AXI4, "Create a new AXI4 peripheral. Create an AXI4 IP, driver, software test application, IP Integrator AXI4 VIP simulation and debug demonstration design."); // b
+selectButton("NEXT", "Next >"); // JButton
+// Elapsed time: 15 seconds
+setText(PAResourceItoN.NewIpWizard_NAME_MYIP, "LED_control"); // aa
+// Elapsed time: 19 seconds
+setText(PAResourceItoN.NewIpWizard_DESCRIPTION_MY_NEW_AXI_IP, "LED Controller"); // aa
+selectButton("NEXT", "Next >"); // JButton
+// Elapsed time: 17 seconds
+selectButton("NEXT", "Next >"); // JButton
+selectRadioButton(PAResourceItoN.NewIpWizard_EDIT_IP, "Edit IP"); // a
+selectButton("FINISH", "Finish"); // JButton
+// 'p' command handler elapsed time: 69 seconds
+dismissDialog("Create and Package New IP"); // O
+// TclEventType: LOAD_FEATURE
+// Tcl Message: create_peripheral user.org user LED_control 1.0 -dir /home/chris/workspace/sp22-e520-lab-assignment7-ychen0223/part4/ip_repo 
+// Tcl Message: add_peripheral_interface S00_AXI -interface_mode slave -axi_type lite [ipx::find_open_core user.org:user:LED_control:1.0] 
+// TclEventType: PACKAGER_OBJECT_ADD
+// Tcl Message: generate_peripheral -driver -bfm_example_design -debug_hw_example_design [ipx::find_open_core user.org:user:LED_control:1.0] 
+// Tcl Message: write_peripheral [ipx::find_open_core user.org:user:LED_control:1.0] 
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: set_property  ip_repo_paths  /home/chris/workspace/sp22-e520-lab-assignment7-ychen0223/part4/ip_repo/LED_control_1.0 [current_project] 
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog -rebuild 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/chris/workspace/sp22-e520-lab-assignment7-ychen0223/part4/ip_repo/LED_control_1.0'. 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 1,999 MB (+2625kb) [00:07:19]
+// WARNING: HEventQueue.dispatchEvent() is taking  1366 ms.
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name edit_LED_control_v1_0 -directory /home/chris/workspace/sp22-e520-lab-assignment7-ychen0223/part4/ip_repo /home/chris/workspace/sp22-e520-lab-assignment7-ychen0223/part4/ip_repo/LED_control_1.0/component.xml 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/chris/Vivado/2021.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,015 MB. GUI used memory: 79 MB. Current time: 4/23/22, 6:26:40 PM PDT
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/chris/workspace/sp22-e520-lab-assignment7-ychen0223/part4/ip_repo/LED_control_1.0'. INFO: [IP_Flow 19-795] Syncing license key meta-data 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+dismissDialog("Create Peripheral IP"); // bA
+// [Engine Memory]: 2,101 MB (+2403kb) [00:07:27]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 81 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LED_control_v1_0 (LED_control_v1_0.v)]", 1, true); // D - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LED_control_v1_0 (LED_control_v1_0.v)]", 1); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LED_control_v1_0 (LED_control_v1_0.v), LED_control_v1_0_S00_AXI_inst : LED_control_v1_0_S00_AXI (LED_control_v1_0_S00_AXI.v)]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LED_control_v1_0 (LED_control_v1_0.v), LED_control_v1_0_S00_AXI_inst : LED_control_v1_0_S00_AXI (LED_control_v1_0_S00_AXI.v)]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LED_control_v1_0 (LED_control_v1_0.v), LED_control_v1_0_S00_AXI_inst : LED_control_v1_0_S00_AXI (LED_control_v1_0_S00_AXI.v)]", 2, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1127 ms.
+selectCodeEditor("LED_control_v1_0_S00_AXI.v", 45, 299); // be
+// Elapsed time: 22 seconds
+selectCodeEditor("LED_control_v1_0_S00_AXI.v", 262, 201); // be
+selectCodeEditor("LED_control_v1_0_S00_AXI.v", 338, 221); // be
+// Elapsed time: 14 seconds
+selectCodeEditor("LED_control_v1_0_S00_AXI.v", 384, 159); // be
+selectCodeEditor("LED_control_v1_0_S00_AXI.v", 384, 159); // be
+selectCodeEditor("LED_control_v1_0_S00_AXI.v", 106, 308); // be
+// Elapsed time: 131 seconds
+selectCodeEditor("LED_control_v1_0_S00_AXI.v", 111, 258); // be
+// HMemoryUtils.trashcanNow. Engine heap size: 2,135 MB. GUI used memory: 94 MB. Current time: 4/23/22, 6:31:15 PM PDT
+// Elapsed time: 1087 seconds
+selectCodeEditor("LED_control_v1_0_S00_AXI.v", 238, 413); // be
+selectCodeEditor("LED_control_v1_0_S00_AXI.v", 184, 268); // be
+// Elapsed time: 90 seconds
+selectCodeEditor("LED_control_v1_0_S00_AXI.v", 121, 473); // be
+// Elapsed time: 126 seconds
+selectCodeEditor("LED_control_v1_0_S00_AXI.v", 109, 276); // be

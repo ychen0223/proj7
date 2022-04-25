@@ -1,0 +1,27 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-401,-294",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port FIFO_WRITE_0 -pg 1 -lvl 0 -x 0 -y 60 -defaultsOSRD
+preplace port port-id_rst_clk_tx_0 -pg 1 -lvl 0 -x 0 -y 140 -defaultsOSRD
+preplace port port-id_clk_tx_0 -pg 1 -lvl 0 -x 0 -y 120 -defaultsOSRD
+preplace port port-id_txd_tx_0 -pg 1 -lvl 3 -x 680 -y 200 -defaultsOSRD
+preplace port port-id_srst_0 -pg 1 -lvl 0 -x 0 -y 200 -defaultsOSRD
+preplace port port-id_wr_clk_0 -pg 1 -lvl 0 -x 0 -y 220 -defaultsOSRD
+preplace inst uart_tx_0 -pg 1 -lvl 1 -x 140 -y 130 -defaultsOSRD
+preplace inst fifo_generator_0 -pg 1 -lvl 2 -x 480 -y 100 -defaultsOSRD
+preplace netloc rst_clk_tx_0_1 1 0 1 NJ 140
+preplace netloc clk_tx_0_1 1 0 2 20 230 300J
+preplace netloc uart_tx_0_txd_tx 1 1 2 280J 200 NJ
+preplace netloc srst_0_1 1 0 2 NJ 200 270J
+preplace netloc wr_clk_0_1 1 0 2 NJ 220 290J
+preplace netloc uart_tx_0_uart_fifo_if 1 1 1 260 80n
+preplace netloc FIFO_WRITE_0_1 1 0 2 NJ 60 NJ
+levelinfo -pg 1 0 140 480 680
+pagesize -pg 1 -db -bbox -sgen -160 0 790 240
+"
+}
+

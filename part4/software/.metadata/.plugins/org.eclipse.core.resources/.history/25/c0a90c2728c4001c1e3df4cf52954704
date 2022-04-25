@@ -1,0 +1,11 @@
+#include "led_Ctrl.h"
+//#include "ledCtrl.c"
+
+int main(){
+	ledCtrl myCtrl;
+	init_ledCtrl(&myCtrl, XPAR_LED_CTRL_0_S00_AXI_BASEADDR);
+	while(1){
+		write_ledCtrl(&myCtrl, read_ledCtrl(&myCtrl));
+	}
+	return 0;
+}

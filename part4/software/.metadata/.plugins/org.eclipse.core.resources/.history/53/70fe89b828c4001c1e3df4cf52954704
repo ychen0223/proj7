@@ -1,0 +1,22 @@
+#include "led_Ctrl.h"
+#include "ledCtrl.c"
+#include <stdio.h>
+#include "xuartps.h"
+#include "xparameters.h"
+
+int main(){
+	ledCtrl myCtrl;
+	init_ledCtrl(&myCtrl, XPAR_LED_CTRL_0_S00_AXI_BASEADDR);
+
+	XUartPs_Config *uConfig;
+	uConfig = XUartPs_LookupConfig(XPAR_XUARTPS_0_DEVICE_ID);
+	if(NULL == uConfig){
+		return XST_FAILURE;
+	}
+
+	XUartPs PSuart;
+
+	int status;
+	status = XUartPs_CfgInitialize(&PSuart, uConfig, uConfig->BaseAddress);
+
+}
