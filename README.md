@@ -1,1 +1,2 @@
-# Lab 6 Report should be in this README file
+# LAB 7 Report 
+# Christopher Chen
