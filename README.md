@@ -1,4 +1,5 @@
 # Christopher Chen LAB 7 Report 
+## Part 
 ## The project consisting of four different parts to gain familarilty of designing customize IP
 ### part 1: Partice Designing a customized IP integrater. We will be practicing importing IP from non-viviado packages, renaming IP components, and create constaints in vivado.
 The lab helped us to create the IPI subsystem design by using the Vivado IP integrator. The Vivado IP integrator allows user to create system design by connecting IP with each others. The user may interact with the system through the IP integrator canvas GUI. To practice creating the system using vivado IP integrator, We created a uart_led design using the Vivado IP integrator.  
